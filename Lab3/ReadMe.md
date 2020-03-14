@@ -13,7 +13,7 @@ either directly or by extending a class such as GenericServlet, HttpServlet. Fol
 4. public ServletConfig getServletConfig()
 5. public String getServletInfo()
 
-# **Objective 2: Java Servlet POST Example*
+# **Objective 2: Java Servlet POST Example**
 
 # **Theory :**
 
