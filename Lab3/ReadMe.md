@@ -26,7 +26,13 @@ Servlets handles form data parsing automatically using the following methods dep
 - getParameterValues() − Call this method if the parameter appears more than once and returns multiple values, for example checkbox.
 - getParameterNames() − Call this method if you want a complete list of all parameters in the current request.
 
+# **Objective 3: Understanding JSP**
 
+# **Theory :**
+
+A JavaServer Pages component is a type of Java servlet that is intended to fulfill the role of a user interface for a Java web application. Web developers  create JSPs as text files that join HTML or XHTML code, XML elements, and embedded JSP actions and commands. Using JSP, you can assemble input from users over Webpage forms, present records from a database or different sources, and build Web pages dynamically. JSP tags can be used for a variety of purposes, such as retrieving data from a database or registering user preferences, accessing JavaBeans components, passing control among pages, and sharing information between requests, pages etc.JavaServer Pages usually serve the same purpose as programs executed using the Common Gateway Interface (CGI).
+
+### Comparision of JSP and Servlet 
 
 
 
