@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HelloServlet</title>
+</head>
+<body>
+<h1>Hello Servlet!!</h1>
+<p>My name is Sagar Gurung.</p>
+</body>
+</html>

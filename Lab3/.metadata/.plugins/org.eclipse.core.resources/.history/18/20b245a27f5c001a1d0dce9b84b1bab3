@@ -1,0 +1,13 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>file</servlet-name>  
+<servlet-class>com.sagar.ServletHello</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>file</servlet-name>  
+<url-pattern>/welcome</url-pattern>  
+</servlet-mapping>  
+  
+</web-app>  

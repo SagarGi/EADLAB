@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<%! int count = 0;
+	String name = "";
+	
+	int increaseCount()
+	{
+		return count++;
+	}
+	String returnName()
+	{
+		return "Sagar";
+	}
+	%>
+	<% out.print("Hello Jsp"); %>
+	<%= "Value of count is = " + increaseCount() + "Your Name is " + returnName() %>
+	Current Time: <%= java.util.Calendar.getInstance().getTime()%>
+</body>
+</html>
