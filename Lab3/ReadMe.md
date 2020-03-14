@@ -12,6 +12,7 @@ either directly or by extending a class such as GenericServlet, HttpServlet. Fol
 3. public void destroy()
 4. public ServletConfig getServletConfig()
 5. public String getServletInfo()
+<!-- Example is provided above -->
 
 # **Objective 2: Java Servlet POST Example**
 
@@ -25,6 +26,7 @@ Servlets handles form data parsing automatically using the following methods dep
 - getParameter() − You call request.getParameter() method to get the value of a form parameter.
 - getParameterValues() − Call this method if the parameter appears more than once and returns multiple values, for example checkbox.
 - getParameterNames() − Call this method if you want a complete list of all parameters in the current request.
+<!-- Example is provided above -->
 
 # **Objective 3: Understanding JSP**
 
@@ -57,6 +59,5 @@ The code placed within JSP expression tag is written to the output stream of the
 The JSP declaration tag is used to declare fields and methods.The code written inside the jsp declaration tag is placed outside the service() method of auto generated servlet.So it doesn't get memory at each request.The syntax of the declaration tag is as follows:
 <%!  field or method declaration %>  
 
-
-
+<!-- Example is provided above -->
 
